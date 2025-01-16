@@ -47,6 +47,7 @@ public class ride {
             out.println("STAY");
 
         // Ensures program ends properly
+        in.close();
         out.close();
         System.exit(0);
     }

@@ -30,7 +30,7 @@ public class StuckInARut {
         // sets up the input and number of cows
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
-        String garbage = in.nextLine();
+        // String garbage = in.nextLine();
 
         // gets each cows direction and coordinates in an array
         for (int i = 0; i < n; i++) {
@@ -96,5 +96,6 @@ public class StuckInARut {
         for (int i = 0; i < n; i++) {
             System.out.println(numGrass[i]);
         }
+        in.close();
     }
 }

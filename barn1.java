@@ -26,7 +26,7 @@ public class barn1 {
 
         // variables for program
         int M = in.nextInt();
-        int S = in.nextInt();
+        // int S = in.nextInt();
         int C = in.nextInt();
         int[] stalls = new int[C];
         int minStalls = 0;

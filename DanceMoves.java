@@ -70,6 +70,6 @@ public class DanceMoves {
         for (int i = 1; i < numCows + 1; i++) {
             System.out.println(uniqueSpaces[i]);
         }
-
+        in.close();
     }
 }

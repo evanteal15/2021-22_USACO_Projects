@@ -17,7 +17,7 @@ public class AcowdemiaII {
       Scanner in = new Scanner(System.in);
       int K = in.nextInt();
       int N = in.nextInt();
-      String garbage = in.nextLine();
+      // String garbage = in.nextLine();
       String[] authors = new String[N];
       String[][] publications = new String[K][N];
       String[] output = new String[N];
@@ -64,6 +64,7 @@ public class AcowdemiaII {
       for (int i = 0; i < N; i++) {
          System.out.println(output[i]);
       }
+      in.close();
    }
 
    public static int find(String[] arr, String str) {
